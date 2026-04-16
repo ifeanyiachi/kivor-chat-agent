@@ -1,0 +1,8 @@
+/*
+ * Embeddings admin page styles.
+ */
+
+.kivor-embeddings-sync-one,
+.kivor-embeddings-delete-one {
+	margin-right: 6px;
+}

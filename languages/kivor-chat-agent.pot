@@ -1,0 +1,1453 @@
+# Copyright (C) 2026 Kivor Chat Agent
+# This file is distributed under the same license as the Kivor Chat Agent plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kivor Chat Agent 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-12 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: OpenCode\n"
+"X-Domain: kivor-chat-agent\n"
+
+#: includes/ai/class-kivor-ai-provider.php:109
+#. translators: 1: Provider name, 2: HTTP status code, 3: Error message
+msgid "%1$s API error (%2$d): %3$s"
+msgstr ""
+
+#: includes/embeddings/class-kivor-embedding-provider.php:158
+#. translators: 1: Provider name, 2: HTTP status code, 3: Error message
+msgid "%1$s embedding API error (%2$d): %3$s"
+msgstr ""
+
+#: includes/ai/class-kivor-ai-provider.php:187
+#. translators: 1: Provider name, 2: HTTP status code
+msgid "%1$s streaming error (HTTP %2$d)."
+msgstr ""
+
+#: includes/ai/class-kivor-ai-provider.php:249
+#. translators: %s: Provider name
+msgid "%s API key is not configured."
+msgstr ""
+
+#: includes/embeddings/class-kivor-embedding-provider.php:104
+#. translators: %s: Provider name
+msgid "%s embedding API key is not configured."
+msgstr ""
+
+#: includes/embeddings/class-kivor-embedding-provider.php:115
+#. translators: %s: Provider name
+msgid "%s embedding model is not configured."
+msgstr ""
+
+#: includes/ai/class-kivor-ai-provider.php:260
+#. translators: %s: Provider name
+msgid "%s model is not configured."
+msgstr ""
+
+#: admin/views/tab-gdpr.php:70
+msgid "0 = use WordPress default privacy page"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:89
+msgid "A hashed version of your IP address (not the actual IP)"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:90
+msgid "A session identifier stored in a cookie"
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:439
+msgid "A sync is already in progress. Please wait for it to complete."
+msgstr ""
+
+#: admin/class-kivor-kb-list-table.php:41
+msgid "Actions"
+msgstr ""
+
+#: admin/views/tab-ai-providers.php:93
+msgid "Active"
+msgstr ""
+
+#: admin/views/tab-ai-providers.php:40
+msgid "Active Provider"
+msgstr ""
+
+#: admin/views/tab-knowledge-base.php:35
+msgid "Add articles and import content from URLs. The AI will use this knowledge to answer questions beyond product data."
+msgstr ""
+
+#: admin/views/tab-appearance.php:62
+msgid "Add custom CSS to style the chat widget. This CSS is injected on pages where the widget loads."
+msgstr ""
+
+#: admin/views/tab-appearance.php:53
+msgid "Add to Cart Button"
+msgstr ""
+
+#: admin/views/tab-general.php:81
+msgid "Additional instructions appended to the AI system prompt. Use this to customize behavior, tone, or restrict topics."
+msgstr ""
+
+#: admin/views/tab-whatsapp.php:38
+msgid "Agent Name"
+msgstr ""
+
+#: admin/views/tab-ai-providers.php:35
+msgid "AI Provider Configuration"
+msgstr ""
+
+#: includes/admin/class-kivor-admin.php:47
+msgid "AI Providers"
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:583
+msgid "All chat logs have been cleared."
+msgstr ""
+
+#: admin/views/tab-gdpr.php:87
+msgid "Anonymize IP addresses in chat logs (last octet zeroed)"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:83
+msgid "Anonymize IPs"
+msgstr ""
+
+#: admin/views/tab-ai-providers.php:108
+#: admin/views/tab-embeddings.php:43
+#: admin/views/tab-embeddings.php:88
+#: admin/views/tab-embeddings.php:112
+msgid "API Key"
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:363
+msgid "API key is required."
+msgstr ""
+
+#: includes/ai/class-kivor-ai-factory.php:45
+#. translators: %s: Provider name
+msgid "API key not configured for %s."
+msgstr ""
+
+#: includes/admin/class-kivor-admin.php:49
+msgid "Appearance"
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:799
+msgid "Article deleted."
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:793
+msgid "Article not found or could not be deleted."
+msgstr ""
+
+#: admin/views/tab-knowledge-base.php:139
+msgid "Articles"
+msgstr ""
+
+#: admin/views/tab-chat-logs.php:46
+msgid "Auto Cleanup"
+msgstr ""
+
+#: admin/views/tab-embeddings.php:126
+msgid "Auto-Sync"
+msgstr ""
+
+#: admin/views/tab-embeddings.php:130
+msgid "Automatically update embeddings when products are saved"
+msgstr ""
+
+#: includes/embeddings/class-kivor-sync-manager.php:131
+#. translators: %s: Error message
+msgid "Batch error: %s"
+msgstr ""
+
+#: admin/views/tab-general.php:34
+msgid "Bot Avatar URL"
+msgstr ""
+
+#: admin/views/tab-general.php:25
+msgid "Bot Name"
+msgstr ""
+
+#: admin/views/tab-general.php:48
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/views/tab-general.php:47
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/class-kivor-settings.php:257
+msgid "By chatting, you agree to our data processing. See our Privacy Policy."
+msgstr ""
+
+#: admin/views/tab-embeddings.php:47
+msgid "Can be the same as your OpenAI chat key, or a separate key for cost tracking."
+msgstr ""
+
+#: admin/views/tab-knowledge-base.php:81
+msgid "Cancel"
+msgstr ""
+
+#: includes/embeddings/class-kivor-embedding-openai.php:60
+msgid "Cannot generate embedding for empty text."
+msgstr ""
+
+#: includes/embeddings/class-kivor-embedding-openai.php:110
+msgid "Cannot generate embedding for empty text in batch."
+msgstr ""
+
+#: admin/views/tab-appearance.php:26
+msgid "Card Layout"
+msgstr ""
+
+#: admin/views/tab-appearance.php:30
+msgid "Carousel (horizontal scroll)"
+msgstr ""
+
+#: admin/class-kivor-kb-list-table.php:38
+msgid "Characters"
+msgstr ""
+
+#: includes/admin/class-kivor-admin.php:53
+#: admin/views/tab-chat-logs.php:26
+msgid "Chat Logs"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:108
+#. translators: %d: number of days
+msgid "Chat logs and consent records are automatically deleted after %d days."
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:216
+msgid "Chat messages exchanged with the Kivor Chat Agent chatbot."
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:88
+msgid "Chat messages you send and the responses you receive"
+msgstr ""
+
+#: admin/views/tab-general.php:43
+msgid "Chat Position"
+msgstr ""
+
+#: includes/api/class-kivor-rest-chat.php:71
+msgid "Chat session ID."
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:82
+msgid "Chatbot (Kivor Chat Agent)"
+msgstr ""
+
+#: admin/views/tab-chat-logs.php:67
+msgid "Clear All Logs"
+msgstr ""
+
+#: admin/views/tab-ai-providers.php:112
+msgid "Clear and type a new key to change."
+msgstr ""
+
+#: admin/class-kivor-logs-list-table.php:254
+msgid "Clear Filters"
+msgstr ""
+
+#: admin/views/tab-embeddings.php:115
+msgid "Collection Name"
+msgstr ""
+
+#: admin/views/tab-ai-providers.php:74
+msgid "Configure API keys and models for each provider. You can enable multiple providers and switch the active one above."
+msgstr ""
+
+#: admin/views/tab-gdpr.php:22
+msgid "Configure consent and privacy features. All features can be individually toggled for different jurisdictions."
+msgstr ""
+
+#: admin/views/tab-appearance.php:21
+msgid "Configure how product cards appear in the chat widget when products are recommended."
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:208
+msgid "Consent Given"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:49
+msgid "Consent Message"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:308
+msgid "Consent records for Kivor Chat Agent chatbot data processing."
+msgstr ""
+
+#: admin/views/tab-gdpr.php:39
+msgid "Consent Required"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:293
+msgid "Consent Type"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:297
+msgid "Consented"
+msgstr ""
+
+#: admin/views/tab-knowledge-base.php:66
+msgid "Content"
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:693
+msgid "Content must not exceed 5,000 characters."
+msgstr ""
+
+#: includes/api/class-kivor-rest-chat.php:298
+msgid "Conversation history array."
+msgstr ""
+
+#: admin/views/tab-ai-providers.php:63
+msgid "Conversation Memory"
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:861
+msgid "Could not extract text content from the URL."
+msgstr ""
+
+#: admin/views/tab-appearance.php:67
+msgid "CSS Code"
+msgstr ""
+
+#: admin/views/tab-embeddings.php:38
+msgid "Currently only OpenAI embeddings are supported."
+msgstr ""
+
+#: admin/views/tab-appearance.php:61
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/views/tab-general.php:72
+msgid "Custom Instructions"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:105
+msgid "Data retention"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:75
+msgid "Data Retention"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:204
+#: admin/class-kivor-logs-list-table.php:41
+msgid "Date"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:79
+msgid "days (auto-delete chat logs after this period)"
+msgstr ""
+
+#: admin/views/tab-chat-logs.php:50
+msgid "days (auto-delete logs older than this)"
+msgstr ""
+
+#: admin/views/tab-whatsapp.php:60
+msgid "Default message shown in the text input."
+msgstr ""
+
+#: admin/class-kivor-kb-list-table.php:188
+msgid "Delete"
+msgstr ""
+
+#: admin/views/tab-general.php:65
+msgid "e.g. What products do you recommend?"
+msgstr ""
+
+#: admin/class-kivor-kb-list-table.php:185
+msgid "Edit"
+msgstr ""
+
+#: admin/views/tab-knowledge-base.php:48
+msgid "Edit Article"
+msgstr ""
+
+#: includes/embeddings/class-kivor-sync-manager.php:445
+msgid "Embedding API key is not configured. Please set it in the Embeddings settings tab."
+msgstr ""
+
+#: includes/embeddings/class-kivor-sync-manager.php:314
+msgid "Embedding count does not match product count."
+msgstr ""
+
+#: admin/views/tab-embeddings.php:26
+msgid "Embedding Settings"
+msgstr ""
+
+#: includes/admin/class-kivor-admin.php:48
+msgid "Embeddings"
+msgstr ""
+
+#: includes/embeddings/class-kivor-local-store.php:309
+msgid "Embeddings database table does not exist. Try deactivating and reactivating the plugin."
+msgstr ""
+
+#: admin/views/tab-embeddings.php:27
+msgid "Embeddings enable semantic (meaning-based) product search. Configure a separate API key for embedding generation."
+msgstr ""
+
+#: admin/views/tab-whatsapp.php:20
+msgid "Enable a WhatsApp tab in the chat widget. Users type a message, then clicking Send opens WhatsApp with the pre-filled message."
+msgstr ""
+
+#: admin/views/tab-gdpr.php:26
+msgid "Enable GDPR"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:30
+msgid "Enable GDPR compliance features"
+msgstr ""
+
+#: admin/views/tab-chat-logs.php:36
+msgid "Enable Logging"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:113
+msgid "Enable rate limiting for chat requests"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:109
+msgid "Enable Rate Limiting"
+msgstr ""
+
+#: admin/views/tab-ai-providers.php:56
+msgid "Enable streaming responses (SSE)"
+msgstr ""
+
+#: admin/views/tab-whatsapp.php:24
+msgid "Enable WhatsApp"
+msgstr ""
+
+#: admin/views/tab-ai-providers.php:99
+msgid "Enabled"
+msgstr ""
+
+#: admin/views/tab-embeddings.php:107
+msgid "Endpoint URL"
+msgstr ""
+
+#: admin/views/tab-embeddings.php:96
+msgid "Environment"
+msgstr ""
+
+#: admin/views/tab-chat-logs.php:63
+msgid "Export CSV"
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:584
+msgid "Failed to clear chat logs."
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:738
+msgid "Failed to create article."
+msgstr ""
+
+#: includes/embeddings/class-kivor-local-store.php:194
+msgid "Failed to delete embedding."
+msgstr ""
+
+#: includes/embeddings/class-kivor-local-store.php:225
+msgid "Failed to delete embeddings."
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:825
+#. translators: %s: Error message
+msgid "Failed to fetch URL: %s"
+msgstr ""
+
+#: includes/ai/class-kivor-ai-provider.php:151
+msgid "Failed to initialize cURL."
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:430
+msgid "Failed to initialize embedding sync. Check your embedding provider and vector store settings."
+msgstr ""
+
+#: includes/ai/class-kivor-ai-provider.php:121
+msgid "Failed to parse AI provider response."
+msgstr ""
+
+#: includes/embeddings/class-kivor-embedding-provider.php:170
+msgid "Failed to parse embedding API response."
+msgstr ""
+
+#: includes/embeddings/class-kivor-local-store.php:131
+msgid "Failed to query embeddings from database."
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:898
+msgid "Failed to save scraped content."
+msgstr ""
+
+#: includes/admin/class-kivor-admin.php:121
+msgid "Failed to save settings."
+msgstr ""
+
+#: includes/embeddings/class-kivor-local-store.php:91
+#. translators: %s: Database error message
+msgid "Failed to store embedding: %s"
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:716
+msgid "Failed to update article."
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:323
+msgid "Failed to update settings."
+msgstr ""
+
+#: admin/class-kivor-logs-list-table.php:246
+msgid "Filter"
+msgstr ""
+
+#: admin/class-kivor-logs-list-table.php:229
+msgid "Filter by session"
+msgstr ""
+
+#: admin/class-kivor-logs-list-table.php:233
+msgid "From"
+msgstr ""
+
+#: admin/views/tab-whatsapp.php:51
+msgid "Full international phone number with country code (e.g., +1234567890)."
+msgstr ""
+
+#: includes/admin/class-kivor-admin.php:51
+msgid "GDPR"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:21
+msgid "GDPR & Privacy"
+msgstr ""
+
+#: includes/admin/class-kivor-admin.php:46
+msgid "General"
+msgstr ""
+
+#: admin/views/tab-general.php:20
+msgid "General Settings"
+msgstr ""
+
+#: includes/class-kivor-settings.php:274
+msgid "Hello! I need help with..."
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:94
+msgid "How we use your data"
+msgstr ""
+
+#: admin/views/tab-knowledge-base.php:39
+msgid "https://example.com/page-to-import"
+msgstr ""
+
+#: admin/views/tab-knowledge-base.php:41
+msgid "Import from URL"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:99
+msgid "Improve the quality of our chatbot responses"
+msgstr ""
+
+#: admin/views/tab-embeddings.php:92
+msgid "Index Name"
+msgstr ""
+
+#: admin/views/tab-general.php:77
+msgid "Instructions"
+msgstr ""
+
+#: includes/api/class-kivor-rest-chat.php:102
+msgid "Invalid security token. Please refresh the page and try again."
+msgstr ""
+
+#: includes/admin/class-kivor-admin.php:52
+#: admin/views/tab-knowledge-base.php:34
+msgid "Knowledge Base"
+msgstr ""
+
+#: includes/knowledge/class-kivor-knowledge-base.php:288
+msgid "Knowledge base article not found."
+msgstr ""
+
+#: admin/views/tab-gdpr.php:105
+msgid "Limit chat requests per user to prevent abuse and control API costs."
+msgstr ""
+
+#: admin/views/tab-appearance.php:31
+msgid "List (vertical stack)"
+msgstr ""
+
+#: admin/views/tab-embeddings.php:74
+msgid "Local (WordPress Database)"
+msgstr ""
+
+#: admin/views/tab-embeddings.php:78
+msgid "Local is simplest. For large catalogs (1000+ products), consider Pinecone or Qdrant."
+msgstr ""
+
+#: admin/views/tab-chat-logs.php:40
+msgid "Log chat conversations to the database"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:98
+msgid "Maintain conversation context during your session"
+msgstr ""
+
+#: admin/class-kivor-kb-list-table.php:146
+msgid "Manual"
+msgstr ""
+
+#: admin/views/tab-embeddings.php:135
+msgid "Manual Sync"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:123
+msgid "Max Requests"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:200
+#: admin/class-kivor-logs-list-table.php:40
+msgid "Message"
+msgstr ""
+
+#: includes/api/class-kivor-rest-chat.php:281
+msgid "Message cannot be empty."
+msgstr ""
+
+#: admin/views/tab-ai-providers.php:67
+msgid "messages (0 = no memory, max 50)"
+msgstr ""
+
+#: admin/views/tab-ai-providers.php:117
+#: admin/views/tab-embeddings.php:52
+msgid "Model"
+msgstr ""
+
+#: admin/views/tab-whatsapp.php:42
+msgid "Name displayed in the WhatsApp tab header."
+msgstr ""
+
+#: admin/views/tab-knowledge-base.php:48
+msgid "New Article"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:209
+#: includes/gdpr/class-kivor-gdpr.php:297
+msgid "No"
+msgstr ""
+
+#: admin/class-kivor-kb-list-table.php:198
+msgid "No articles found. Add one above or import from a URL."
+msgstr ""
+
+#: admin/class-kivor-logs-list-table.php:264
+msgid "No chat logs found."
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:413
+msgid "No embedding provider configured. Please configure an embedding provider in the Embeddings tab first."
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:608
+msgid "No logs to export."
+msgstr ""
+
+#: includes/embeddings/class-kivor-sync-manager.php:103
+msgid "No products found to sync."
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:491
+#: includes/embeddings/class-kivor-sync-manager.php:241
+msgid "No sync in progress."
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:420
+msgid "No vector store configured. Please configure a vector store in the Embeddings tab first."
+msgstr ""
+
+#: includes/embeddings/class-kivor-embedding-openai.php:157
+msgid "OpenAI batch embedding response contains invalid embedding data."
+msgstr ""
+
+#: includes/embeddings/class-kivor-embedding-openai.php:143
+msgid "OpenAI batch embedding response missing data."
+msgstr ""
+
+#: includes/embeddings/class-kivor-embedding-openai.php:82
+msgid "OpenAI embedding response missing embedding data."
+msgstr ""
+
+#: admin/views/tab-general.php:85
+msgid "Override Mode"
+msgstr ""
+
+#: admin/views/tab-whatsapp.php:47
+msgid "Phone Number"
+msgstr ""
+
+#: includes/embeddings/class-kivor-pinecone-store.php:129
+#. translators: 1: HTTP status code, 2: Error message
+msgid "Pinecone API error (%1$d): %2$s"
+msgstr ""
+
+#: includes/embeddings/class-kivor-sync-manager.php:512
+msgid "Pinecone API key and environment/host are required."
+msgstr ""
+
+#: includes/embeddings/class-kivor-pinecone-store.php:448
+msgid "Pinecone API key is not configured."
+msgstr ""
+
+#: admin/views/tab-embeddings.php:85
+msgid "Pinecone Configuration"
+msgstr ""
+
+#: includes/gdpr/class-kivor-consent-manager.php:96
+msgid "Please accept the data processing terms to use the chat."
+msgstr ""
+
+#: includes/class-kivor-chat-handler.php:298
+msgid "Please enter a message."
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:235
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: admin/views/tab-whatsapp.php:56
+msgid "Pre-filled Message"
+msgstr ""
+
+#: admin/views/tab-appearance.php:45
+msgid "Price"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:56
+msgid "Privacy Link"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:66
+msgid "Privacy Page ID"
+msgstr ""
+
+#: includes/embeddings/class-kivor-sync-manager.php:148
+#. translators: 1: Processed count, 2: Total count
+msgid "Processed %1$d of %2$d products..."
+msgstr ""
+
+#: admin/views/tab-appearance.php:20
+msgid "Product Card Appearance"
+msgstr ""
+
+#: admin/views/tab-appearance.php:41
+msgid "Product Image"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:97
+msgid "Provide relevant answers and product recommendations"
+msgstr ""
+
+#: admin/views/tab-embeddings.php:32
+msgid "Provider"
+msgstr ""
+
+#: admin/views/tab-ai-providers.php:73
+msgid "Provider Settings"
+msgstr ""
+
+#: includes/embeddings/class-kivor-qdrant-store.php:101
+#. translators: 1: HTTP status code, 2: Error message
+msgid "Qdrant API error (%1$d): %2$s"
+msgstr ""
+
+#: admin/views/tab-embeddings.php:104
+msgid "Qdrant Configuration"
+msgstr ""
+
+#: includes/embeddings/class-kivor-qdrant-store.php:483
+msgid "Qdrant endpoint URL is not configured."
+msgstr ""
+
+#: includes/embeddings/class-kivor-sync-manager.php:527
+msgid "Qdrant endpoint URL is required."
+msgstr ""
+
+#: admin/views/tab-general.php:62
+msgid "Question %d"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:104
+msgid "Rate Limiting"
+msgstr ""
+
+#: admin/views/tab-general.php:89
+#: admin/views/tab-gdpr.php:89
+msgid "Replace the default system prompt entirely with custom instructions above"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:127
+msgid "requests per window"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:43
+msgid "Require user consent before starting a chat session"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:196
+#: admin/class-kivor-logs-list-table.php:39
+msgid "Role"
+msgstr ""
+
+#: admin/views/tab-ai-providers.php:143
+msgid "Save AI Provider Settings"
+msgstr ""
+
+#: admin/views/tab-appearance.php:75
+msgid "Save Appearance Settings"
+msgstr ""
+
+#: admin/views/tab-knowledge-base.php:77
+msgid "Save Article"
+msgstr ""
+
+#: admin/views/tab-embeddings.php:145
+msgid "Save Embedding Settings"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:94
+msgid "Save GDPR Settings"
+msgstr ""
+
+#: admin/views/tab-general.php:96
+msgid "Save General Settings"
+msgstr ""
+
+#: admin/views/tab-chat-logs.php:55
+msgid "Save Log Settings"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:142
+msgid "Save Rate Limit Settings"
+msgstr ""
+
+#: admin/views/tab-whatsapp.php:66
+msgid "Save WhatsApp Settings"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:136
+msgid "seconds (3600 = 1 hour)"
+msgstr ""
+
+#: includes/admin/class-kivor-admin.php:162
+msgid "Security check failed."
+msgstr ""
+
+#: includes/class-kivor-settings.php:191
+msgid "Kivor"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:68
+#: includes/admin/class-kivor-admin.php:77
+#: includes/admin/class-kivor-admin.php:78
+#: includes/admin/class-kivor-admin.php:85
+#: includes/admin/class-kivor-admin.php:86
+#: includes/admin/class-kivor-admin.php:114
+msgid "Kivor Chat Agent"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:130
+#: includes/gdpr/class-kivor-gdpr.php:215
+#: includes/gdpr/class-kivor-gdpr.php:332
+msgid "Kivor Chat Agent Chat Logs"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:136
+#: includes/gdpr/class-kivor-gdpr.php:307
+#: includes/gdpr/class-kivor-gdpr.php:338
+msgid "Kivor Chat Agent Consent Records"
+msgstr ""
+
+#: includes/class-kivor-activator.php:39
+msgid "Kivor Chat Agent requires PHP 7.4 or higher."
+msgstr ""
+
+#: includes/class-kivor-activator.php:48
+msgid "Kivor Chat Agent requires WordPress 5.8 or higher."
+msgstr ""
+
+#: admin/class-kivor-logs-list-table.php:38
+msgid "Session"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:192
+#: includes/gdpr/class-kivor-gdpr.php:289
+#: admin/class-kivor-logs-list-table.php:228
+msgid "Session ID"
+msgstr ""
+
+#: includes/api/class-kivor-rest-chat.php:290
+msgid "Session identifier for conversation continuity."
+msgstr ""
+
+#: includes/admin/class-kivor-admin.php:120
+msgid "Settings saved."
+msgstr ""
+
+#: admin/views/tab-appearance.php:36
+msgid "Show Elements"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:60
+msgid "Show link to privacy policy page"
+msgstr ""
+
+#: admin/views/tab-whatsapp.php:28
+msgid "Show WhatsApp tab in the chat widget"
+msgstr ""
+
+#: admin/class-kivor-kb-list-table.php:39
+msgid "Source"
+msgstr ""
+
+#: includes/embeddings/class-kivor-sync-manager.php:113
+msgid "Starting full sync..."
+msgstr ""
+
+#: admin/views/tab-embeddings.php:70
+msgid "Storage Backend"
+msgstr ""
+
+#: admin/views/tab-ai-providers.php:52
+msgid "Streaming"
+msgstr ""
+
+#: admin/views/tab-ai-providers.php:58
+msgid "Streams AI responses token-by-token. Disable if your host does not support Server-Sent Events."
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:387
+#. translators: %s: Provider name
+msgid "Successfully connected to %s!"
+msgstr ""
+
+#: admin/views/tab-general.php:55
+msgid "Suggested Questions"
+msgstr ""
+
+#: admin/views/tab-embeddings.php:138
+msgid "Sync All Products Now"
+msgstr ""
+
+#: includes/embeddings/class-kivor-sync-manager.php:164
+#. translators: 1: Synced, 2: Skipped, 3: Deleted, 4: Errors
+msgid "Sync complete. %1$d synced, %2$d skipped (unchanged), %3$d deleted, %4$d errors."
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:453
+#. translators: 1: products synced, 2: products skipped, 3: products failed, 4: KB articles synced, 5: KB articles failed
+msgid "Sync complete. Products: %1$d synced, %2$d skipped, %3$d failed. KB articles: %4$d synced, %5$d failed."
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:472
+#. translators: %s: error message
+msgid "Sync failed: %s"
+msgstr ""
+
+#: admin/views/tab-embeddings.php:122
+msgid "Sync Settings"
+msgstr ""
+
+#: includes/admin/class-kivor-admin.php:143
+msgid "Tab content not found."
+msgstr ""
+
+#: admin/views/tab-ai-providers.php:135
+msgid "Test Connection"
+msgstr ""
+
+#: admin/views/tab-ai-providers.php:48
+msgid "The AI provider used for chat responses."
+msgstr ""
+
+#: admin/views/tab-general.php:29
+msgid "The name displayed in the chat widget header."
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:851
+msgid "The URL returned no content."
+msgstr ""
+
+#: includes/api/class-kivor-rest-chat.php:273
+msgid "The user message."
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:102
+msgid "Third-party AI processing"
+msgstr ""
+
+#: admin/views/tab-gdpr.php:132
+msgid "Time Window"
+msgstr ""
+
+#: admin/class-kivor-kb-list-table.php:37
+#: admin/views/tab-knowledge-base.php:58
+msgid "Title"
+msgstr ""
+
+#: admin/class-kivor-logs-list-table.php:238
+msgid "To"
+msgstr ""
+
+#: includes/utils/class-kivor-rate-limiter.php:120
+#. translators: %d: seconds until rate limit resets
+msgid "Too many requests. Please try again in %d seconds."
+msgstr ""
+
+#: includes/ai/class-kivor-ai-factory.php:32
+#: includes/ai/class-kivor-ai-factory.php:65
+#: includes/ai/class-kivor-ai-factory.php:97
+#. translators: %s: Provider name
+msgid "Unknown AI provider: %s"
+msgstr ""
+
+#: includes/embeddings/class-kivor-sync-manager.php:484
+#. translators: %s: Provider name
+msgid "Unknown embedding provider: %s"
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:307
+#. translators: %s: Group name
+msgid "Unknown settings group: %s"
+msgstr ""
+
+#: includes/embeddings/class-kivor-sync-manager.php:538
+#. translators: %s: Store type
+msgid "Unknown vector store type: %s"
+msgstr ""
+
+#: admin/views/tab-general.php:56
+msgid "Up to 4 quick-reply suggestions shown when the chat opens."
+msgstr ""
+
+#: admin/views/tab-knowledge-base.php:77
+msgid "Update Article"
+msgstr ""
+
+#: admin/class-kivor-kb-list-table.php:40
+msgid "Updated"
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:839
+#. translators: %d: HTTP status code
+msgid "URL returned HTTP %d."
+msgstr ""
+
+#: admin/views/tab-general.php:38
+msgid "URL to the bot avatar image. Leave empty for default icon."
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:295
+msgid "Values must be an object."
+msgstr ""
+
+#: admin/views/tab-embeddings.php:65
+msgid "Vector Store"
+msgstr ""
+
+#: admin/views/tab-chat-logs.php:27
+msgid "View and manage chat conversation logs. Logs are stored in the database and can be exported as CSV."
+msgstr ""
+
+#: admin/views/tab-appearance.php:49
+msgid "View Product Link"
+msgstr ""
+
+#: admin/views/tab-general.php:91
+msgid "Warning: This removes all built-in behavior including product search capabilities."
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:83
+msgid "We use an AI-powered chatbot on this website to help answer your questions and assist with product discovery."
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:85
+msgid "What data we collect"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:86
+msgid "When you interact with our chatbot, we may collect the following information:"
+msgstr ""
+
+#: includes/api/class-kivor-rest-chat.php:75
+msgid "Whether consent is given (true) or revoked (false)."
+msgstr ""
+
+#: includes/api/class-kivor-rest-chat.php:316
+msgid "Whether GDPR consent was given."
+msgstr ""
+
+#: includes/admin/class-kivor-admin.php:50
+msgid "WhatsApp"
+msgstr ""
+
+#: admin/views/tab-whatsapp.php:19
+msgid "WhatsApp Chat Redirect"
+msgstr ""
+
+#: includes/class-kivor-settings.php:272
+msgid "WhatsApp Support"
+msgstr ""
+
+#: admin/views/tab-embeddings.php:18
+msgid "WooCommerce is not active. Embedding sync is only available for WooCommerce product data. You can still configure settings for when WooCommerce is activated."
+msgstr ""
+
+#: includes/embeddings/class-kivor-sync-manager.php:84
+msgid "WooCommerce is not active. Product sync requires WooCommerce."
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:209
+#: includes/gdpr/class-kivor-gdpr.php:297
+msgid "Yes"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:113
+msgid "You can request export or deletion of your chatbot data through the standard WordPress privacy tools. Use the \"Export Personal Data\" or \"Erase Personal Data\" tools under the Tools menu."
+msgstr ""
+
+#: includes/api/class-kivor-rest-admin.php:257
+msgid "You do not have permission to access this resource."
+msgstr ""
+
+#: includes/admin/class-kivor-admin.php:166
+msgid "You do not have permission to change these settings."
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:95
+msgid "Your chat data is used to:"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:91
+msgid "Your consent status and timestamp"
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:103
+msgid "Your messages are sent to a third-party AI service (such as OpenAI, Google Gemini, or OpenRouter) for processing. These services have their own privacy policies governing how they handle data."
+msgstr ""
+
+#: includes/gdpr/class-kivor-gdpr.php:112
+msgid "Your rights"
+msgstr ""
+
+#: admin/class-kivor-kb-list-table.php:166
+msgid "ago"
+msgstr ""
+
+#: admin/views/tab-voice.php:40
+#: includes/admin/class-kivor-admin.php:49
+msgid "Voice"
+msgstr ""
+
+#: admin/views/tab-voice.php:41
+msgid "Configure speech-to-text and text-to-speech providers for the Chat tab only."
+msgstr ""
+
+#: admin/views/tab-voice.php:45
+msgid "Enable Voice"
+msgstr ""
+
+#: admin/views/tab-voice.php:49
+msgid "Enable voice input/output for the chat tab"
+msgstr ""
+
+#: admin/views/tab-voice.php:56
+msgid "Interaction"
+msgstr ""
+
+#: admin/views/tab-voice.php:60
+msgid "Interaction Mode"
+msgstr ""
+
+#: admin/views/tab-voice.php:64
+msgid "Push to talk"
+msgstr ""
+
+#: admin/views/tab-voice.php:65
+msgid "Always listen"
+msgstr ""
+
+#: admin/views/tab-voice.php:67
+msgid "Always listen starts after one initial mic click per browser session."
+msgstr ""
+
+#: admin/views/tab-voice.php:72
+msgid "Auto Send"
+msgstr ""
+
+#: admin/views/tab-voice.php:76
+msgid "Send after silence"
+msgstr ""
+
+#: admin/views/tab-voice.php:77
+msgid "Manual send only"
+msgstr ""
+
+#: admin/views/tab-voice.php:83
+msgid "Silence Delay (ms)"
+msgstr ""
+
+#: admin/views/tab-voice.php:87
+msgid "Default 800ms"
+msgstr ""
+
+#: admin/views/tab-voice.php:92
+msgid "STT Confidence Threshold"
+msgstr ""
+
+#: admin/views/tab-voice.php:96
+msgid "If transcript confidence is below threshold, text stays in input for manual send."
+msgstr ""
+
+#: admin/views/tab-voice.php:100
+msgid "Interrupt On Speech"
+msgstr ""
+
+#: admin/views/tab-voice.php:104
+msgid "Stop bot speech and cancel current response when user starts speaking"
+msgstr ""
+
+#: admin/views/tab-voice.php:110
+msgid "Language"
+msgstr ""
+
+#: admin/views/tab-voice.php:114
+msgid "Default Language"
+msgstr ""
+
+#: admin/views/tab-voice.php:121
+msgid "Auto-detect Language"
+msgstr ""
+
+#: admin/views/tab-voice.php:125
+msgid "Try browser language first when available"
+msgstr ""
+
+#: admin/views/tab-voice.php:131
+msgid "Speech to Text (STT)"
+msgstr ""
+
+#: admin/views/tab-voice.php:135
+msgid "STT Provider"
+msgstr ""
+
+#: admin/views/tab-voice.php:139
+#: admin/views/tab-voice.php:165
+msgid "Web Speech API"
+msgstr ""
+
+#: admin/views/tab-voice.php:149
+msgid "STT Model"
+msgstr ""
+
+#: admin/views/tab-voice.php:157
+msgid "Text to Speech (TTS)"
+msgstr ""
+
+#: admin/views/tab-voice.php:161
+msgid "TTS Provider"
+msgstr ""
+
+#: admin/views/tab-voice.php:175
+msgid "TTS Model"
+msgstr ""
+
+#: admin/views/tab-voice.php:191
+msgid "TTS Speed"
+msgstr ""
+
+#: admin/views/tab-voice.php:199
+msgid "Provider Credentials"
+msgstr ""
+
+#: admin/views/tab-voice.php:203
+msgid "OpenAI API Key"
+msgstr ""
+
+#: admin/views/tab-voice.php:211
+msgid "Cartesia API Key"
+msgstr ""
+
+#: admin/views/tab-voice.php:219
+msgid "Cartesia Version"
+msgstr ""
+
+#: admin/views/tab-voice.php:227
+msgid "Deepgram API Key"
+msgstr ""
+
+#: admin/views/tab-voice.php:235
+msgid "Google Service Account JSON"
+msgstr ""
+
+#: admin/views/tab-voice.php:240
+msgid "Leave empty to keep existing credentials."
+msgstr ""
+
+#: admin/views/tab-voice.php:242
+msgid "Paste full JSON once. It will be stored in plugin settings."
+msgstr ""
+
+#: admin/views/tab-voice.php:248
+msgid "Google Location"
+msgstr ""
+
+#: admin/views/tab-voice.php:256
+msgid "Cost Guardrails"
+msgstr ""
+
+#: admin/views/tab-voice.php:260
+msgid "Max STT Seconds / Turn"
+msgstr ""
+
+#: admin/views/tab-voice.php:268
+msgid "Max TTS Chars / Reply"
+msgstr ""
+
+#: admin/views/tab-voice.php:277
+msgid "Save Voice Settings"
+msgstr ""
+
+#: admin/views/tab-voice.php:30
+#. translators: %d: number of characters in configured Google service account JSON
+msgid "Configured (%d chars)"
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:130
+msgid "Invalid security token. Please refresh the page and try again."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:147
+#: includes/voice/class-kivor-voice-proxy.php:213
+msgid "Voice is disabled."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:159
+msgid "Web Speech STT is handled in browser."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:164
+msgid "Missing audio payload."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:169
+msgid "Invalid audio payload."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:174
+msgid "Failed to create temporary file."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:180
+msgid "Failed to write audio payload."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:222
+msgid "Web Speech TTS is handled in browser."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:227
+msgid "Text is required."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:275
+#: includes/voice/class-kivor-voice-proxy.php:348
+msgid "OpenAI voice API key is missing."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:298
+#: includes/voice/class-kivor-voice-proxy.php:469
+msgid "Cartesia API key is missing."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:325
+msgid "Unsupported STT provider."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:388
+msgid "Unsupported TTS provider."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:403
+#: includes/voice/class-kivor-voice-proxy.php:519
+msgid "Deepgram API key is missing."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:415
+#: includes/voice/class-kivor-voice-proxy.php:717
+msgid "Failed to read audio file."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:437
+msgid "Deepgram STT request failed."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:559
+msgid "Speech-to-text request failed."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:589
+msgid "Text-to-speech request failed."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:643
+msgid "Google service account JSON is missing."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:648
+msgid "Invalid Google service account JSON."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:670
+msgid "Failed to sign Google JWT."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:694
+msgid "Failed to obtain Google access token."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:757
+msgid "Google STT failed."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:818
+msgid "Google TTS failed."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:838
+msgid "Google project_id is missing in service account JSON."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:855
+msgid "cURL with file upload support is required for this STT provider."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:860
+msgid "Failed to initialize cURL."
+msgstr ""
+
+#: includes/voice/class-kivor-voice-proxy.php:885
+msgid "Unknown cURL error."
+msgstr ""
